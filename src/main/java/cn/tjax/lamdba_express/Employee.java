@@ -19,6 +19,7 @@ public class Employee {
     private String name;
     private int age;
     private double salary;
+    private Status status;
 
     public Employee(String name){
         this.name = name;
@@ -27,6 +28,12 @@ public class Employee {
     public Employee(String name,int age){
         this.name = name;
         this.age = age;
+    }
+
+    public Employee(String name,int age,double salary){
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
     }
 
 
